@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Pokedex from '../src/components'
+import { Pokedex } from '../src/components'
 import './App.css'
 
 function App() {

@@ -1,12 +1,12 @@
 import React from 'react'
 import pokemon from '../../pokemon.json'
-import Pokecard from '..'
+import { Pokecard } from '..'
 
 const Pokedex = () => {
     return (
-      <div>
+      <div className='pokedex'>
         <h1>Pokedex</h1>
-        <div>
+        <div className='pokecard-holder'>
           {
             pokemon.map((pokemon) => (
               <Pokecard key={pokemon.id} pokemon={pokemon} />

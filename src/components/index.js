@@ -1,2 +1,2 @@
-import Pokecard from "../components/Pokecard";
-import Pokedex from "../components/Pokedex";
+export {default as Pokedex} from './Pokedex';
+export {default as Pokecard} from './Pokecard';
